@@ -1,0 +1,5 @@
+.header {
+    & .active-tab {
+        color: #E95A5E;
+    }
+};
