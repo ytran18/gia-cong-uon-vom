@@ -41,7 +41,7 @@ const Header = (props) => {
     };
 
     return (
-        <div className="w-full h-full header flex justify-between px-28 items-center">
+        <div className="w-full h-full header flex justify-between px-16 sm:px-28 items-center">
             <img src={logo} alt="logo" className="max-h-full p-2"/>
 
             <div className="flex items-center gap-4">
@@ -59,7 +59,7 @@ const Header = (props) => {
                 })}
             </div>
 
-            <div></div>
+            <div className="hidden sm:flex"></div>
         </div>
     );
 };
