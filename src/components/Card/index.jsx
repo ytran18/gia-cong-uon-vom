@@ -6,7 +6,7 @@ const Card = (props) => {
 
     return (
         <div
-            className="w-full h-32 sm:h-28 bg-white rounded-md border border-[rgb(219,219,219)] hover:border-blue-400 
+            className="w-full h-32 sm:h-28 bg-white rounded-md border border-solid border-[rgb(219,219,219)] hover:border-blue-400 
             transition-colors duration-200 py-3 px-3 sm:px-10 cursor-pointer flex flex-col sm:flex-row sm:items-center 
             sm:justify-between gap-3"
             onClick={() => handleBillDetail('edit', data?._id)}
